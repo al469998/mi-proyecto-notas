@@ -1,4 +1,4 @@
-# gestor_notas.py - Versión con Menciones Cualitativas (Rama feature)
+# gestor_notas.py - Versión Final Integrada y Sin Conflictos (UJI)
 
 def calcular_promedio(nota_teoria, nota_practica):
     # Ponderación teoría/prácticas: 60% teoría, 40% laboratorio
@@ -21,6 +21,5 @@ if __name__ == "__main__":
     practica = float(input("Introduce nota de prácticas (0-10): "))
     
     final = calcular_promedio(teoria, practica)
-    # Calculamos la mención cualitativa correspondiente
     mencion = obtener_mencion(final)
     print(f"Resultado final de la asignatura: {final:.2f} ({mencion})")
