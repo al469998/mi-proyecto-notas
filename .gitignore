@@ -1,0 +1,13 @@
+# Entorno virtual de Python (no incluir en el repositorio)
+.venv/
+env/
+
+# Archivos temporales y byte-code compilado por Python
+__pycache__/
+*.py[cod]
+
+# Carpetas de configuración interna del IDE PyCharm
+.idea/
+
+# Variables de entorno y secretos
+.env
